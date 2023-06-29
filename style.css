@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2,p{
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 3rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.test-card{
+    width: 700px;
+    height: 550px;
+    margin: 7rem auto;
+    display: flex;
+    box-shadow: 15px 15px rgb(0, 0, 0, 0.02);
+}
+
+.test-result{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    border-radius: 25px;
+    
+}
+
+.result{
+    margin: 3.5rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    text-align: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#big-number{
+    font-size: 65px;
+    color: white;
+}
+
+#short-number{
+    color: white;
+}
+
+#circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-buttom{
+    text-align: center;
+    color: aliceblue;
+}
+
+#h2-buttom {
+    font-size: 35px;
+}
+
+#p-buttom {
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+    font-size: 20px;
+}
+
+/* Seccion summary*/
+.test-summary{
+    padding: 0 1.5rem;
+    width: 50%;
+}
+
+#h2-summary{
+    font-size: 25px;
+    margin: 1rem 0;
+}
+
+#seccions{
+    margin-top: 1.5rem;
+}
+
+#reaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 0;
+    padding: 15px 5px;  
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 95%);
+}
+
+#reaction h4{
+    color: red;
+}
+
+#memory{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 0;
+    padding: 15px 5px;  
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 90%)
+}
+
+#memory h4{
+    color: orange;
+}
+
+#verbal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 0;
+    padding: 15px 5px;  
+    width: 100%;
+    border-radius: 10px;
+    background-color:hsl(166, 100%, 90%)
+}
+
+#verbal h4{
+    color: green;
+}
+
+#visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.5rem 0;
+    padding: 15px 5px;  
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(234, 85%, 90%)
+}
+
+#visual h4{
+    color: blue;    
+}
+
+button{
+    background-color: hsl(224, 30%, 27%);
+    color: aliceblue;
+    padding: 1rem 3rem;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 2.5rem;
+    font-size: 18px;
+}
+
+span{
+    color: rgb(0, 0, 0, 0.5);
+}
